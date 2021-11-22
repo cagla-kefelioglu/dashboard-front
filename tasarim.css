@@ -1,0 +1,58 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css";
+*{text-decoration: none}
+html,body{
+    height:100%;
+}
+body{
+    display: flex;
+}
+.sidebar{
+    width:250px;
+    background-color:#4C52BC;
+    display: flex;
+    flex-direction: column;
+}
+.content{flex:1;display: flex;}
+.sidebar .logo{padding-top:35px;padding-left:42px;padding-bottom: 65px;}
+.sidebar .logo a{display:block}
+.sidebar .logo img{
+    width:36px;
+    height:36px;
+    border-radius:50%;
+}
+.sidebar ul li a{
+    display: block;
+    height:48px;
+    line-height:48px;
+    color: rgba(255,255,255,.6);
+    padding: 0 40px;
+    font-size: 14px;
+}
+.sidebar ul li.active a{
+    color:#fff;
+    background:linear-gradient(to left,transparent,rgba(255,255,255,0.5));
+    box-shadow: 0 3px 0 rgba(0,0,0,.1);
+}
+.sidebar ul li a:hover{color:white}
+.sidebar .storage{margin-top:auto;padding: 0 40px 35px;color:white}
+.sidebar .storage .bar{width: 100%;height: 6px;border-radius:6px;background-color: #30358A;margin-top:12px}
+.sidebar .storage .bar span{width:auto;height:6px;border-radius: 6px;background-color:#F8D9AF;display:block}
+.sidebar .storage .title{display:flex;justify-content:space-between;font-size:14px;font-weight: 500;align-items: center}
+.sidebar .storage .title .percent{font-size:12px;color:rgba(255,255,255,.8)}
+.sidebar .storage .title i{margin-right: 5px}
+
+.content .right-bar{ width:360px;border-left:2px solid #E6E7EA;padding:32px 0;}
+.content .inner{flex:1;padding:32px 65px;}
+.content .inner .search{margin-bottom:60px;}
+.content .inner .search input{width:340px;height:44px;border-radius:44px;background:rgba(202,206,231,.14);font-size:14px;display:flex;position: absolute;padding: 0 20px 0 40px;box-sizing: border-box}
+.content .inner .search input::placeholder{color:#8F94B8}
+.content .inner .search i{margin-top:13px;padding-left:13px;color:#8F94B8;font-size:18px}
+.content .inner .inner-box{margin-bottom:60px}
+.content .inner .content-title h4{font-size:20px;font-weight:500;color:#0E1B42}
+.content .inner .content-title a{font-size:14px;color:#8186AD}
+.content .inner .content-title a:hover{color:#30358A}
+.content .inner .content-title a i{font-size:11px;margin-left:8px;}
+.content .inner .content-title{padding-bottom:6px;border-bottom:2px solid #F6F7FA;display: flex;justify-content: space-between;align-items: center}
+.content .inner .content-title :before{}
+
+
