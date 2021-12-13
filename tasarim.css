@@ -51,8 +51,14 @@ body{
 .content .inner .content-title h4{font-size:20px;font-weight:500;color:#0E1B42}
 .content .inner .content-title a{font-size:14px;color:#8186AD}
 .content .inner .content-title a:hover{color:#30358A}
-.content .inner .content-title a i{font-size:11px;margin-left:8px;}
-.content .inner .content-title{padding-bottom:6px;border-bottom:2px solid #F6F7FA;display: flex;justify-content: space-between;align-items: center}
-.content .inner .content-title :before{}
+.content .inner .content-title  a i{font-size:11px;margin-left:8px;}
+.content .inner .content-title{padding-bottom:6px;border-bottom:2px solid #F6F7FA;display: flex;justify-content: space-between;align-items: center;position:relative;margin-bottom:35px}
+.content .inner .content-title :before{content:'';height:4px;width:38px;position:absolute;bottom: -2px;left:0;border-radius:4px;color:#C4E2E6}
+.content .inner .inner-box .projects{display:flex}
+.content .inner .inner-box .box{flex:1;margin:0 7px;}
+.content .inner .inner-box .box.active{background-color: #F7F8FB}
+.content .inner .inner-box .box.empty a{border:2px dashed #E4E8F6;display:block;
+}
+
 
 
